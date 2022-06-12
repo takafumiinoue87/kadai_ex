@@ -1,0 +1,230 @@
+@charset"utf-8";
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p,
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    color: #4c4c4c;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+/* ここから */
+.dezasuta {
+    margin: 0 auto;
+    max-width: 1180px;
+    margin: 70px 0 0 80px;
+
+}
+
+.sub {
+    font-size: 27px;
+    padding: 100px 0 120px 0;
+    line-height: 1.5;
+
+}
+
+.logo {
+    font-size: 35px;
+    font-family: bild;
+    margin-bottom: -40px;
+    margin-left: 55px;
+}
+
+.theme {
+    font-size: 18px;
+    /*vertical-align: top; */
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.magnifying_glass {
+    display: inline-block;
+    padding: 10px
+}
+
+.image {
+    margin-top: 70px;
+
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+}
+
+li {
+    padding-right: 25px;
+    font-size: 17px;
+}
+
+/* .container {
+    margin-left: 450px;
+} */
+
+.day {
+    float: left;
+    margin-right: 220px;
+}
+
+.container p {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.container h2 {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.item {
+
+    border: 1px solid;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    padding: 100px 0;
+    border-bottom: 1px solid;
+}
+
+.footer {
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+.message {
+    margin: 70px 0 120px 0;
+    display: inline-block;
+    max-width: 250px;
+    display: flex;
+    flex-flow: column;
+}
+
+.message img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.message p {
+    line-height: 1.8;
+
+}
+
+img1 {
+    size: 10px;
+}
+
+.b {
+    margin: 60px 40px 30px 60px;
+    max-width: 210px;
+}
+
+.b h4 {
+    margin-bottom: 35px;
+}
+
+.b p {
+    line-height: 1.5;
+}
+
+.c {
+    max-width: 250px;
+    line-height: 3;
+    margin: 60px 100px 0 0;
+}
+
+.c h4 {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.c h3 {
+    margin-top: 15px;
+    border-bottom: 1px solid;
+    font-size: 17px;
+}
+
+.c p {
+    margin: 15px 0 30px 0;
+    font-size: 14px;
+}
+
+.d {
+    max-width: 250px;
+    margin-top: 60px;
+}
+
+.d h3 {
+    margin-top: 20px;
+    border-bottom: 100% solid;
+    font-size: 17px;
+}
+
+.d h4 {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+form {
+    margin-top: 80px;
+    display: flex;
+    flex-flow: column;
+    /* font-size: 50px; */
+    width: 220px;
+    height: 50px;
+}
+
+.e {
+    margin: 60px 0 80px 0;
+    text-align: center;
+    font-size: 15px;
+}
